@@ -1,0 +1,9 @@
+syntax = 'proto2';
+
+package demo.msg;
+
+message DemoMsg {
+    optional int32 errno = 1;
+    optional string msg = 2;
+}
+
