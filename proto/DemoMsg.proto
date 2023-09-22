@@ -3,7 +3,7 @@ syntax = 'proto2';
 package demo.msg;
 
 message DemoMsg {
-    optional int32 errno = 1;
-    optional string msg = 2;
+    optional int32 error_no = 1;
+    optional string message = 2;
 }
 
